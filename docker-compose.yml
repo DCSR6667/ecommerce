@@ -1,0 +1,64 @@
+services:
+  # MongoDB container
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017" # Expose MongoDB port
+    networks:
+      - app-network
+    volumes:
+      - mongodb_data:/data/db # Persist MongoDB
+
+  mongoimport:
+    image: mongo:latest # Use the same MongoDB image as for the MongoDB container
+    container_name: mongoimport
+    command: >
+      mongoimport --host=mongodb --db=ecommerce --collection=products --file=/data.json --jsonArray --drop
+    depends_on:
+      - mongodb # Ensure MongoDB starts first
+    networks:
+      - app-network
+    volumes:
+      - ./data.json:/data.json:ro # Mount the JSON data file
+    restart: "no" # Don't restart after mongoimport finishes
+
+  # Express app container
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: express-app
+    ports:
+      - "3001:3001" # Expose port 3001 for Express app
+    depends_on:
+      - mongodb # Ensure MongoDB starts first
+    environment:
+      MONGO_URL: "mongodb://mongodb:27017/ecommerce"
+    networks:
+      - app-network
+
+  # Caddy reverse proxy container
+  caddy:
+    image: caddy:latest
+    container_name: caddy
+    ports:
+      - "80:80" # HTTP
+      - "443:443" # HTTPS
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile # Caddy config
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - backend # Correct service name here
+    networks:
+      - app-network
+
+volumes:
+  mongodb_data: # Volume to persist MongoDB data
+  caddy_data:
+  caddy_config:
+
+networks:
+  app-network:
+    driver: bridge # Network to allow inter-container communication

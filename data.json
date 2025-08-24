@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "RWDY ESSENTIAL 1.0",
+    "description": "Fabric: Crafted from a premium single jersey, 240 GSM, this tee ensures ultimate comfort and durability with 100 per cotton. Design Details: Front and Back: Embroidered logos on both the front and back add a touch of luxury and sophistication.",
+    "price": "20",
+    "image": "/static/images/tee1.webp"
+  },
+  {
+    "id": 2,
+    "name": "RWDY ESSENTIAL 2.0",
+    "description": "Fabric: Crafted from a premium single jersey, 240 GSM, this tee ensures ultimate comfort and durability with 100 per cotton. Design Details: Front and Back: Embroidered logos on both the front and back add a touch of luxury and sophistication.",
+    "price": "22",
+    "image": "/static/images/tee2.webp"
+  },
+  {
+    "id": 3,
+    "name": "RWDY ESSENTIAL 3.0",
+    "description": "Fabric: Crafted from a premium single jersey, 240 GSM, this tee ensures ultimate comfort and durability with 100 per cotton. Design Details: Front and Back: Embroidered logos on both the front and back add a touch of luxury and sophistication.",
+    "price": "25",
+    "image": "/static/images/tee3.webp"
+  },
+  {
+    "id": 4,
+    "name": "RWDY ESSENTIAL 4.0",
+    "description": "Fabric: Crafted from a premium single jersey, 240 GSM, this tee ensures ultimate comfort and durability with 100 per cotton. Design Details: Front and Back: Embroidered logos on both the front and back add a touch of luxury and sophistication.",
+    "price": "40",
+    "image": "/static/images/tee4.webp"
+  },
+  {
+    "id": 5,
+    "name": "CULTURE SWEATSHIRT 01",
+    "description": "Fabric: Crafted from a premium single jersey, 240 GSM, this tee ensures ultimate comfort and durability with 100 per cotton. Design Details: Front and Back: Embroidered logos on both the front and back add a touch of luxury and sophistication.",
+    "price": "30",
+    "image": "/static/images/sh1.webp"
+  },
+  {
+    "id": 6,
+    "name": "CULTURE SWEATSHIRT 02",
+    "description": "Fabric: Crafted from a premium single jersey, 240 GSM, this tee ensures ultimate comfort and durability with 100 per cotton. Design Details: Front and Back: Embroidered logos on both the front and back add a touch of luxury and sophistication.",
+    "price": "80",
+    "image": "/static/images/sh2.webp"
+  },
+  {
+    "id": 7,
+    "name": "CULTURE SHIRT 01",
+    "description": "Frontal Sophistication: Kalamkari pocket and collar detailing provide an elegant touch to the front.Back Statement: Kalamkari yolk patch with RWDY HD print on the back for a bold and cultural statement.Luxurious Fabric: Crafted from 100 viscose, adding a touch of luxury to your wardrobe.",
+    "price": "28",
+    "image": "/static/images/shirt1.webp"
+  },
+  {
+    "id": 8,
+    "name": "CULTURE SHIRT 02",
+    "description": "Frontal Sophistication: Kalamkari pocket and collar detailing provide an elegant touch to the front.Back Statement: Kalamkari yolk patch with RWDY HD print on the back for a bold and cultural statement.Luxurious Fabric: Crafted from 100  viscose, adding a touch of luxury to your wardrobe.",
+    "price": "36",
+    "image": "/static/images/shirt2.webp"
+  },
+  {
+    "id": 9,
+    "name": "CULTURE SHIRT 03",
+    "description": "Frontal Sophistication: Kalamkari pocket and collar detailing provide an elegant touch to the front.Back Statement: Kalamkari yolk patch with RWDY HD print on the back for a bold and cultural statement.Luxurious Fabric: Crafted from 100 visscose, adding a touch of luxury to your wardrobe.",
+    "price": "40",
+    "image": "/static/images/shirt3.webp"
+  },
+  {
+    "id": 10,
+    "name": "CULTURE HOODIE 01",
+    "description": "Front Branding: RWDY puff print branding on the chest for a distinctive touch. Back Stamp: RWDY stamp in puff print on the back, making a statement wherever you go. Comfort and Durability: Solid GSM of 300, crafted with fleece fabric in a cotton/poly blend for unparalleled comfort and lasting durability.",
+    "price": "46",
+    "image": "/static/images/hoodie1.webp"
+  },
+  {
+    "id": 11,
+    "name": "CULTURE HOODIE 02",
+    "description": "Front Branding: RWDY puff print branding on the chest for a distinctive touch. Back Stamp: RWDY stamp in puff print on the back, making a statement wherever you go. Comfort and Durability: Solid GSM of 300, crafted with fleece fabric in a cotton/poly blend for unparalleled comfort and lasting durability.",
+    "price": "38",
+    "image": "/static/images/hoodie2.webp"
+  },
+  {
+    "id": 12,
+    "name": "BLACK DENIM CARGO 01",
+    "description": "Frontal Statement: Highlighted by a prominent RWDY patch label and multiple pockets for a bold and contemporary look. Material Excellence: Crafted from 3/1 twill denim, ensuring both style and utility.",
+    "price": "47",
+    "image": "/static/images/jeans1.webp"
+  },
+  {
+    "id": 13,
+    "name": "CARPENTER PANTS 01",
+    "description": "Frontal Statement: Highlighted by a prominent RWDY patch label and multiple pockets for a bold and contemporary look. Material Excellence: Crafted from 3/1 twill denim, ensuring both style and utility.",
+    "price": "50",
+    "image": "/static/images/jeans2.webp"
+  },
+  {
+    "id": 14,
+    "name": "CARPENTER PANTS 01",
+    "description": "Frontal Statement: Highlighted by a prominent RWDY patch label and multiple pockets for a bold and contemporary look. Material Excellence: Crafted from 3/1 twill denim, ensuring both style and utility.",
+    "price": "50",
+    "image": "/static/images/jeans3.webp"
+  },
+  {
+    "id": 15,
+    "name": "CULTURE BOMBER",
+    "description": "GSM of 300: This jacket boasts a badass GSM of 300 for a substantial and quality feel.Durable Design: Cotton/poly outer shell ensures durability, making it a long-lasting wardrobe essential.RWDY Puff Print Branding: Stand out with the bold RWDY puff print branding at the back.",
+    "price": "100",
+    "image": "/static/images/bj1.webp"
+  },
+  {
+    "id": 16,
+    "name": "CULTURE BOMBER",
+    "description": "GSM of 300: This jacket boasts a badass GSM of 300 for a substantial and quality feel.Durable Design: Cotton/poly outer shell ensures durability, making it a long-lasting wardrobe essential.RWDY Puff Print Branding: Stand out with the bold RWDY puff print branding at the back.",
+    "price": "80",
+    "image": "/static/images/bj2.webp"
+  }
+]
